@@ -1,0 +1,43 @@
+.message {
+  position: relative;
+  width: 30rem;
+  height: 30rem;
+  position: fixed;
+  bottom: 50%;
+  right: 10rem;
+  transform: translate(0, 50%);
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  animation: tiltAndStraighten 0.5s ease-in-out;
+}
+
+@keyframes tiltAndStraighten {
+  0% {
+    transform: translate(0, 50%) rotate(-15deg);
+  }
+  100% {
+    transform: translate(0, 50%) rotate(0deg);
+  }
+}
+
+.img {
+  width: 42px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-right: 0.75rem;
+  vertical-align: top;
+}
+
+.content {
+  width: 25rem;
+}
+
+.content p {
+  display: inline-block;
+  max-width: 16rem;
+}
+
+.input {
+  width: 13rem;
+}

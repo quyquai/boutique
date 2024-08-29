@@ -1,0 +1,20 @@
+.form {
+  display: inline-block; /* Hiển thị thành phần dưới dạng khối nội tuyến */
+  border: 1px solid #adb5bd; /* Định dạng đường viền của form */
+}
+
+.form label {
+  margin-right: 2rem; /* Khoảng cách phía bên phải giữa nhãn và phần nhập liệu */
+  margin-left: 1rem; /* Khoảng cách phía bên trái giữa nhãn và phần nhập liệu */
+}
+
+.form input {
+  width: 1rem; /* Độ rộng của ô nhập liệu */
+  border: none; /* Loại bỏ đường viền của ô nhập liệu */
+  text-align: center; /* Căn giữa nội dung trong ô nhập liệu */
+}
+
+.btn_icon {
+  border: none; /* Loại bỏ đường viền của nút */
+  background-color: white; /* Đặt màu nền của nút là trắng */
+}

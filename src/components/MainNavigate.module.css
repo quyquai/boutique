@@ -1,0 +1,58 @@
+.nav {
+  display: flex; /* Sử dụng flexbox để căn chỉnh các phần tử bên trong */
+  justify-content: space-between; /* Căn giữa các phần tử và tạo khoảng cách giữa chúng */
+  align-items: center; /* Căn các phần tử theo chiều dọc */
+  background-color: #fff; /* Màu nền là trắng */
+  padding: 1rem; /* Padding ở cả 4 cạnh của thanh điều hướng */
+  margin: 0 auto; /* Margin auto để căn giữa thanh điều hướng */
+  margin-bottom: 1rem; /* Khoảng cách dưới của thanh điều hướng */
+}
+
+.nav ul {
+  list-style: none; /* Loại bỏ bullet points của danh sách */
+  margin: 0; /* Loại bỏ margin mặc định của danh sách */
+  padding: 0; /* Loại bỏ padding mặc định của danh sách */
+  display: flex; /* Sử dụng flexbox để căn chỉnh các phần tử bên trong */
+  align-items: center; /* Căn các phần tử theo chiều dọc */
+  width: 100%; /* Danh sách có chiều rộng 100% của thanh điều hướng */
+}
+
+.nav li {
+  margin: 0 0.5rem; /* Khoảng cách giữa các mục trong danh sách */
+}
+
+.nav li:nth-child(3) {
+  flex-grow: 1; /* Mục thứ ba tự mở rộng để lấp đầy phần còn trống */
+  text-align: center; /* Căn giữa văn bản của mục thứ ba */
+}
+
+.nav h2 {
+  text-transform: uppercase; /* Chuyển đổi văn bản thành chữ in hoa */
+  margin: 0; /* Loại bỏ margin mặc định của tiêu đề */
+  font-size: 1.5rem; /* Kích thước chữ của tiêu đề */
+  font-weight: 500; /* Độ đậm của tiêu đề */
+}
+
+.nav a {
+  text-decoration: none; /* Loại bỏ gạch chân dưới văn bản */
+  color: inherit; /* Sử dụng màu chữ mặc định của phần tử cha */
+  font-weight: 500; /* Độ đậm của văn bản */
+  font-size: 1rem; /* Kích thước chữ của văn bản */
+}
+
+.nav a:hover, /* Khi di chuột qua link */
+.nav a.active {
+  /* Khi link đang được chọn */
+  color: #f59f00; /* Đổi màu chữ thành màu cam khi di chuột qua hoặc khi đang được chọn */
+}
+
+.btn_user {
+  background: none; /* Loại bỏ nền của nút */
+  border: none; /* Loại bỏ viền của nút */
+}
+
+.icon_down {
+  font-size: 12px; /* Kích thước của biểu tượng mũi tên */
+  margin-left: 8px; /* Khoảng cách từ biểu tượng đến văn bản */
+  margin-right: 12px; /* Khoảng cách từ biểu tượng đến văn bản */
+}

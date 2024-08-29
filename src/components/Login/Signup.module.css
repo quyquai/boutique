@@ -1,0 +1,13 @@
+.button {
+  width: 24rem; /* Độ rộng của nút */
+  margin: 1rem 3rem; /* Khoảng cách từ các phần tử xung quanh */
+  padding: 0.75rem; /* Khoảng cách bên trong nút */
+  text-transform: uppercase; /* Chuyển đổi văn bản thành chữ in hoa */
+  background-color: #323539; /* Màu nền của nút */
+  color: white; /* Màu văn bản */
+  font-size: 1rem; /* Kích thước chữ */
+}
+
+.button:hover {
+  background-color: #2a2e31; /* Màu nền của nút khi di chuột vào */
+}

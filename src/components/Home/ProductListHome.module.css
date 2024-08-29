@@ -1,0 +1,32 @@
+.row {
+  display: flex; /* Sử dụng flexbox để các sản phẩm tự động xếp vào hàng */
+  flex-wrap: wrap; /* Cho phép các sản phẩm tự động xuống dòng khi không đủ không gian */
+  gap: 1rem; /* Khoảng cách giữa các sản phẩm là 1 rem */
+}
+
+.product {
+  flex: 1 1 calc(25% - 1rem); /* 4 sản phẩm mỗi hàng, trừ đi khoảng cách giữa các sản phẩm */
+  max-width: calc(
+    25% - 1rem
+  ); /* Đảm bảo sản phẩm không vượt quá 25% chiều rộng */
+  box-sizing: border-box; /* Đảm bảo kích thước của sản phẩm không bị thay đổi bởi padding và border */
+  text-align: center; /* Căn giữa nội dung của sản phẩm */
+}
+
+.product button {
+  background: none; /* Loại bỏ nền của nút */
+  border: none; /* Loại bỏ viền của nút */
+  padding: 0; /* Loại bỏ padding của nút */
+  cursor: pointer; /* Đổi con trỏ khi di chuột qua nút */
+  width: 100%; /* Nút có chiều rộng bằng 100% */
+}
+
+.product button img {
+  width: 100%; /* Hình ảnh có chiều rộng bằng 100% */
+  height: auto; /* Tự động tính toán chiều cao để tránh biến dạng hình ảnh */
+  transition: opacity 0.3s ease; /* Hiệu ứng khi độ mờ của hình ảnh thay đổi */
+}
+
+.product button:hover img {
+  opacity: 0.7; /* Đặt độ mờ của hình ảnh khi di chuột qua là 0.7, tạo hiệu ứng mờ */
+}

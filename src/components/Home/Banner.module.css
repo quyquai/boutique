@@ -1,0 +1,11 @@
+.banner {
+  background-image: url('../../assets/banner1.jpg'); /* Hình nền của banner */
+  background-size: cover; /* Chỉ định cách hình nền được kích thước và phân bố */
+  background-position: center; /* Chỉ định vị trí của hình nền */
+  height: 50vh; /* Chiều cao của banner là 50% của chiều cao màn hình */
+  position: relative; /* Thành phần banner có vị trí tương đối */
+}
+
+.banner_content {
+  width: 20rem; /* Độ rộng của nội dung banner */
+}

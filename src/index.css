@@ -1,0 +1,57 @@
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+
+  font-variation-settings: 'slnt' 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.input {
+  border: 1px solid #dee2e6;
+  margin: 0 3rem;
+}
+
+.input input {
+  width: 100%;
+  border: none;
+  padding: 1rem;
+}
+
+.input input:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.error {
+  margin-left: 3rem;
+  color: #ff6b6b;
+}
+
+.button {
+  background-color: #323539;
+  color: white;
+  padding: 0.3rem 1.5rem;
+  font-size: 1rem;
+}
+
+.button:hover {
+  background-color: #2a2e31;
+}
+
+.messeger {
+  border: 8px solid black;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 5rem;
+  right: 5rem;
+}

@@ -1,0 +1,5 @@
+.img_login {
+  background-image: url('../assets/banner1.jpg'); /* Đường dẫn đến hình ảnh nền */
+  background-size: cover; /* Hiển thị hình ảnh với kích thước bao phủ */
+  background-position: center; /* Căn giữa hình ảnh */
+}

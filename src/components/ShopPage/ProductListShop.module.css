@@ -1,0 +1,18 @@
+.card {
+  opacity: 0; /* Sẽ ẩn card ban đầu */
+  transform: scale(0.8); /* Phóng to từ kích thước nhỏ hơn */
+  animation: fadeIn 0.7s ease-in-out forwards; /* Áp dụng hiệu ứng fadeIn với thời gian 0.7s và kiểu easing ease-in-out */
+}
+
+.input {
+  width: 65%; /* Chiều rộng của ô input là 65% */
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1; /* Khi kết thúc keyframe, opacity sẽ là 1 */
+    transform: scale(
+      1
+    ); /* Khi kết thúc keyframe, kích thước sẽ là bình thường */
+  }
+}
